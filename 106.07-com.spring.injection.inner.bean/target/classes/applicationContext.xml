@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	
+	<bean id="tofas" class="com.otostore.Tofas">
+		<property name="sahin">
+		<bean class="com.otostore.ArabaType">
+			<property name="marka" value="Tofas"/>
+			<property name="model" value="Sahin"/>
+			<property name="year" value="1985"/>
+		</bean>
+		</property>
+		
+		<property name="kartal">
+		<bean class="com.otostore.ArabaType">
+			<property name="marka" value="Tofas"/>
+			<property name="model" value="Kartal"/>
+			<property name="year" value="1986"/>
+		</bean>
+		</property>
+		
+		<property name="dogan">
+		<bean class="com.otostore.ArabaType">
+			<property name="marka" value="Tofas"/>
+			<property name="model" value="Doğan"/>
+			<property name="year" value="1987"/>
+		</bean>
+		</property>
+	</bean>
+	
+	
+	
+</beans>

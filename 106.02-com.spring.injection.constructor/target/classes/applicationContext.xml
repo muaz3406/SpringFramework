@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="civic" class="com.otostore.Civic">
+		<constructor-arg value="Civic" />
+	</bean>
+
+	<bean id="sahin" class="com.otostore.Sahin">
+		<constructor-arg value="Tofas" />
+		<constructor-arg value="Sahin" />
+		<constructor-arg value="1985" />
+	</bean>
+</beans>
